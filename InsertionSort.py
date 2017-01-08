@@ -9,7 +9,6 @@ def insertion_sort(A):
     return A
 
 
-A = [2, 4, 1, 6, 5]
 A = insertion_sort([2, 4, 1, 6, 5])
 print("Sorted array is:")
 print('\t'.join(map(str, A)))
